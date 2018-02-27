@@ -1,0 +1,16 @@
+{
+  "name": "postman-jenkins",
+  "version": "1.0.0",
+  "description": "project for demo",
+  "directories": {
+    "test-api": "tests"
+  },
+  "scripts": {
+    "api-tests-production": "newman run tests/Jenkins.postman_collection -e tests/POS API Automation.postman_environment.json --delay-request 5000 "
+  },
+  "author": "supraja bandi",
+ 
+  "dependencies": {
+    "newman": "^3.9.3"
+  }
+}

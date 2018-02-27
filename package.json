@@ -6,7 +6,7 @@
     "test-api": "tests"
   },
   "scripts": {
-    "api-tests-production": "newman run tests/Jenkins.postman_collection -e tests/POS API Automation.postman_environment.json --delay-request 5000 "
+    "api-tests-production": "newman run tests/Jenkins.postman_collection -e tests/Automation.postman_environment.json --delay-request 5000 "
   },
   "author": "supraja bandi",
  
